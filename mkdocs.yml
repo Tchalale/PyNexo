@@ -12,6 +12,7 @@ theme:
   name: material
   language: pt
   custom_dir: overrides
+  logo: images/pynexo-logo1.png
   font:
     text: Inter
     code: JetBrains Mono

@@ -1,5 +1,8 @@
 
 /* PyNexo - Barra de navegação superior */
+.md-header__topic {
+    display: none !important;
+}
 
 /* Cabeçalho principal: azul Python */
 .md-header {

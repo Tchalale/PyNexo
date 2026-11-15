@@ -1,5 +1,6 @@
-
-# PyNexo
+<p align="center">
+  <img src="./images/pynexo-logo.png" alt="Python Angola Community" width="250">
+</p>
 
 ## Aprender, partilhar e construir conhecimento.
 
