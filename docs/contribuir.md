@@ -10,6 +10,6 @@ Podes contribuir de várias formas:
 - Desenvolver projectos demonstrativos.
 - Sugerir melhorias.
 
-Consulta o ficheiro [CONTRIBUTING.md](../CONTRIBUTING.md) para conhecer as orientações de contribuição.
+Consulta o ficheiro [CONTRIBUTING.md](https://github.com/filipemalaquias/PyNexo/blob/main/CONTRIBUTING.md) para conhecer as orientações de contribuição.
 
 Repositório: [GitHub - PyNexo](https://github.com/filipemalaquias/PyNexo)
