@@ -1,0 +1,67 @@
+site_name: PyNexo
+site_description: Biblioteca Aberta de Conhecimento Python
+site_author: Filipe Malaquias
+
+repo_name: filipemalaquias/PyNexo
+repo_url: https://github.com/filipemalaquias/PyNexo
+
+theme:
+  name: material
+  language: pt
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Activar modo escuro
+
+    - scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Activar modo claro
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+nav:
+  - Início: index.md
+  - Aprender Python:
+      - Visão geral: content/index.md
+      - Fundamentos:
+          - Introdução: content/fundamentos/introducao.md
+          - Instalação: content/fundamentos/instalacao.md
+          - Primeiro programa: content/fundamentos/primeiro-programa.md
+          - Variáveis: content/fundamentos/variaveis.md
+          - Tipos de dados: content/fundamentos/tipos-de-dados.md
+          - Operadores: content/fundamentos/operadores.md
+          - Condicionais: content/fundamentos/condicionais.md
+          - Ciclos: content/fundamentos/ciclos.md
+          - Funções: content/fundamentos/funcoes.md
+  - Sobre: sobre.md
+  - Como utilizar: como-utilizar.md
+  - Contribuir: contribuir.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
