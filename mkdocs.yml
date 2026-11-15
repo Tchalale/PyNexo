@@ -1,6 +1,9 @@
+
 site_name: PyNexo
 site_description: Biblioteca Aberta de Conhecimento Python
 site_author: Filipe Malaquias
+
+site_url: https://filipemalaquias.github.io/PyNexo/
 
 repo_name: filipemalaquias/PyNexo
 repo_url: https://github.com/filipemalaquias/PyNexo
