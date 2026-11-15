@@ -11,6 +11,7 @@ repo_url: https://github.com/filipemalaquias/PyNexo
 theme:
   name: material
   language: pt
+  custom_dir: overrides
   font:
     text: Inter
     code: JetBrains Mono
@@ -47,6 +48,10 @@ extra_javascript:
 
 nav:
   - Início: index.md
+  - Intalação:
+    - python: content/instalacao/python.md
+    - vscode: content/instalacao/vscode.md
+    - git: content/instalacao/git.md
   - Aprender Python:
       - Visão geral: content/index.md
       - Fundamentos:

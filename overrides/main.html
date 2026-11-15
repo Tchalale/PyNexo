@@ -1,0 +1,26 @@
+
+{% extends "base.html" %}
+
+{% block header %}
+  {{ super() }}
+
+  <nav class="pynexo-top-links" aria-label="Navegação principal">
+    <div class="pynexo-top-links__container">
+
+      <a href="{{ 'content/index.md' | url }}">Tutoriais</a>
+
+      <a href="{{ 'ebooks/index.md' | url }}">E-books</a>
+
+      <a href="{{ 'cursos/index.md' | url }}">Cursos</a>
+
+      <a href="{{ 'videos/index.md' | url }}">Vídeos</a>
+
+      <a href="{{ 'exercicios/index.md' | url }}">Exercícios</a>
+
+      <a href="{{ 'testes/index.md' | url }}">Testes</a>
+
+      <a href="{{ 'certificados/index.md' | url }}">Certificados</a>
+
+    </div>
+  </nav>
+{% endblock %}

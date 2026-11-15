@@ -1,1 +1,84 @@
- /* Funcionalidades personalizadas do PyNexo</pre> */
+
+/* PyNexo - Barra de navegação superior */
+
+/* Cabeçalho principal: azul Python */
+.md-header {
+    background-color: #3776AB !important;
+    color: #FFFFFF;
+}
+
+.md-header__button,
+.md-header__topic,
+.md-header__source,
+.md-header__title {
+    color: #FFFFFF !important;
+}
+
+.md-header__button:hover {
+    color: #DCEBFA !important;
+}
+
+/* Barra personalizada dos links: azul escuro */
+.pynexo-top-links {
+    background-color: #17212B !important;
+    border-top: 1px solid rgba(255,255,255,.08);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.pynexo-top-links__container a {
+    color: #FFFFFF !important;
+}
+
+.pynexo-top-links__container a:hover {
+    color: #FFD166 !important;
+}
+
+.pynexo-top-links {
+    background: #17212b;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+}
+
+.pynexo-top-links__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: 48px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.pynexo-top-links__container::-webkit-scrollbar {
+    display: none;
+}
+
+.pynexo-top-links__container a {
+    color: #e5e7eb;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.pynexo-top-links__container a:hover {
+    color: #f0b84b;
+}
+
+/* Adaptação para telemóveis */
+
+@media screen and (max-width: 768px) {
+    .pynexo-top-links__container {
+        gap: 22px;
+        padding: 0 16px;
+        min-height: 44px;
+    }
+
+    .pynexo-top-links__container a {
+        font-size: 12px;
+    }
+}
